@@ -1,0 +1,58 @@
+.section {
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.875rem;
+  position: relative;
+}
+
+.top__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1.875rem;
+}
+
+.top__section p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.middle__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.middle__section img {
+  height: 10rem;
+  width: auto;
+}
+
+.botton__section {
+  text-align: center;
+  margin: 1.25rem;
+}
+
+.botton__section button {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #471516;
+  border-radius: 0.9rem;
+  border: none;
+  cursor: pointer;
+}
+
+.botton__section img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 18.75rem;
+  width: auto;
+}
